@@ -1,0 +1,275 @@
+/* Global styles */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #161616;
+}
+
+:focus {
+  outline: none;
+}
+
+.container-fluid {
+  padding: 6% 13% 5%;
+}
+
+#hero .container-fluid {
+  padding: 0 13% 5%;
+}
+
+#help .container-fluid {
+  padding-bottom: 13%;
+}
+
+#copywright .container-fluid {
+  padding: 3% 13% 1%;
+}
+
+/* Navigation */
+
+nav {
+  margin-bottom: 8%;
+}
+
+.nav-item {
+  padding: 0 0.8rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-item .navlink-start,
+.navbar-toggler,
+.dropdown-item,
+body .line,
+body .line2,
+.sc-icon {
+  color: #16e9ce;
+}
+
+/* Layout*/
+
+#hero {
+  background-image: url(../images/bc-image.jpg);
+  height: 100vh;
+}
+
+#projects {
+  background-color: #000;
+  position: relative;
+}
+
+#contact {
+  background-color: #16e9ce;
+  text-align: center;
+}
+
+#footer {
+  background-color: #363636;
+}
+
+#copywright {
+  background-color: #fff;
+}
+
+/* Images */
+
+.tony {
+  position: absolute;
+  left: 46%;
+  top: -5%;
+}
+
+.bank {
+  position: absolute;
+  z-index: 1;
+}
+
+.info {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pixelmarket-logo {
+  margin-bottom: 1rem;
+}
+
+/* Typography */
+
+.hero-title {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  margin-bottom: 26px;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 1.37rem;
+  margin-bottom: 55px;
+}
+
+.offer-title {
+  font-weight: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  max-width: 85%;
+}
+
+.offer-sc-tittle {
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.offer-text {
+  margin-bottom: 3rem;
+  max-width: 95%;
+}
+
+.help-sc {
+  margin-bottom: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.help-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 4rem auto 4rem;
+}
+
+.help-sc-title {
+  margin: 1rem 0 1rem;
+  font-weight: bold;
+}
+
+.help-link,
+.footer-link {
+  text-decoration: none;
+  line-height: 2;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.help-link {
+  color: #fff;
+}
+
+.footer-link {
+  color: #16e9ce;
+}
+
+.help-link:hover {
+  color: #16e9ce;
+}
+
+.projects-title {
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.contact-title {
+  font-weight: bold;
+  margin: 4rem auto 1rem;
+}
+
+.contact-text {
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.footer-title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.copywright-text {
+  color: #000;
+}
+
+/* Components */
+
+/* Buttons */
+
+.hero-btn {
+  margin-bottom: 10rem;
+}
+
+.projects-btn {
+  margin: 4rem auto auto auto;
+  display: block;
+}
+
+/* Icons */
+
+.sc-span {
+  padding: 1%;
+}
+
+.sc-icon {
+  padding-right: 2%;
+}
+
+/* Lines */
+
+body .line {
+  width: 20%;
+  opacity: 100;
+  height: 10px;
+}
+
+.segment-line {
+  margin: auto;
+  width: 4%;
+  transform: rotate(90deg);
+  border: 10px;
+  opacity: 100%;
+}
+
+#projects .segment-line {
+  margin-top: 10%;
+}
+
+/* Media  */
+
+@media (max-width: 544px) {
+  body {
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .projects-img {
+    display: block;
+    position: static;
+  }
+
+  hr {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .offer-title {
+    max-width: 100%;
+  }
+
+  .help-col {
+    text-align: left;
+  }
+}
