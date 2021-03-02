@@ -58,7 +58,7 @@ body .line2,
 /* Layout*/
 
 #hero {
-  background-image: url(../images/bc-image.jpg);
+  background-image: url(../images/bc-image.webp);
   height: 100vh;
 }
 
@@ -215,7 +215,7 @@ h3 {
 
 /* Icons */
 
-.sc-span {
+.sc-contact {
   padding: 1%;
 }
 
